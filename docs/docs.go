@@ -509,7 +509,7 @@ var SwaggerInfo = &swag.Spec{
 	Version:          "1.0",
 	Host:             "localhost:8088",
 	BasePath:         "/",
-	Schemes:          []string{"http"},
+	Schemes:          []string{"http", "https"},
 	Title:            "TES SWAGGER PEMROGRAMAN III",
 	Description:      "This is a sample swagger for Fiber",
 	InfoInstanceName: "swagger",

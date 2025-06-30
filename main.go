@@ -33,9 +33,9 @@ func init() {
 // @contact.url https://github.com/indrariksa
 // @contact.email indra@ulbi.ac.id
 
-// @host localhost:8088
+// https://backendpraktikum-production.up.railway.app/
 // @BasePath /
-// @schemes http
+// @schemes http https
 
 // @securityDefinitions.apikey BearerAuth
 // @in header
@@ -77,3 +77,4 @@ func main() {
 		log.Fatalf("Error starting server: %v", err)
 	}
 }
+

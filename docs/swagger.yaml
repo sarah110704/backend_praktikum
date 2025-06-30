@@ -326,6 +326,7 @@ paths:
       - Auth
 schemes:
 - http
+- https
 securityDefinitions:
   BearerAuth:
     in: header
